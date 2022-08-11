@@ -1,0 +1,48 @@
+body{
+    background-image: url('back.jpg');
+   background-repeat: repeat-x;
+   background-size: cover;
+   height: 100vh;
+}
+.container{
+ position: relative;
+ align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+.box{
+    position: relative;
+    right: 0;
+    bottom: 0;
+border: 2px solid;
+width: 400px;
+background-image: url('box.jpg');
+background-repeat: repeat-x;
+   background-size: cover;
+border-radius: 20px;
+}
+@media (max-width:500px){
+    .box{
+        width:300px;
+    }
+}
+.box1{
+    /* background-color: blueviolet; */
+    border-radius: 10px;
+    height: 100px;
+    position: relative;
+ align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+#icon{
+    animation: move 2s linear infinite;
+}
+@keyframes move{
+    0%{
+        font-size: 48px;
+    }
+    50%{
+        font-size: 58px;
+    }
+}
